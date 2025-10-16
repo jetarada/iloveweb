@@ -1,0 +1,68 @@
+* {box-sizing: border-box}
+:root {
+    max-width: 900px;
+    margin: auto;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:lightyellow ;
+
+}
+.imgLogo, .h1Caption { float: left; }
+nav {
+    width: 100%;
+    background-color: #5cb944;
+    overflow: auto;
+}
+nav a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%; /* Four links of equal widths */
+    text-align: center;
+}
+nav a:hover {
+    background-color: #cc2931;
+}
+/* nav a.active {
+    background-color: #cc2931;
+} */
+.chef {
+    float: left;
+    padding-right: 20px;
+}
+.aboutChef {
+    /* position: relative; */
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 10px;
+}
+footer {
+    text-align: center;
+    margin-top: 50px;
+}
+@media screen and (max-width: 500px) {
+    .imgLogo, .h1Caption { float: none; }
+    .imgLogo, .h1Caption { 
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center; 
+    }
+    nav a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+    .chef { width: 100%; }
+    .aboutChef {
+        padding: 0px 20px;
+        font-size: 15px;
+        text-align: justify;
+    }
+}
