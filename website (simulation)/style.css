@@ -1,0 +1,75 @@
+/* Body content */
+.content {
+    border: grey solid 1.5px;
+    border-radius: 5px;
+    height: 385px;
+    width: 275px;
+    padding: 10px;
+}
+/* Pages Stylings */
+.hcontent {
+    height: 385px;
+    width: 500px;
+    padding: 10px;
+}
+/* Facebook logo */
+header img {
+    width: 200px;
+}
+/* Log-in button hover */
+button:hover {
+    background-color: cornflowerblue;
+    color: white;
+    border-color: aliceblue;
+}
+/* Facebook-logo & Footer is centered */
+header, footer {
+    text-align: center;
+}
+/* Email is Italic and disabled */
+section input {
+    font-style: italic;
+}
+/* Notification style for 'Cancelled prompt' */
+#demo {
+    font-size: large;
+    color: red;
+}
+/* Log-Out position */
+.logout {
+float: right;
+}
+/* Navigation alignment */
+.hcontent div {
+    display: inline-block;
+}
+/* Homepage Stylings */
+#homepage {
+    font-weight: bold;
+}
+
+/* Navigation */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+}
+li {
+    float: left;
+    width: 25%;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover, .active1, .active2, 
+    .active3, .active4 {
+    background-color: #057ff2;
+}
+
